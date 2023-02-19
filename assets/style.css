@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.btn {
+    border-radius: .5rem;
+    border: 0.1rem solid #47b2e4;
+    cursor: pointer;
+    background: #47b2e4;
+}
+.btn:hover{
+    background: transparent;
+}
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    align-items: center;
+    background: #37517e;
+    padding: .7rem 6%;
+}
+.header .navbar h1{
+    font-size: 1.8rem;
+    color: #fff;
+}
+.header .navbar ul{
+    display: flex;
+    font-size: 15px
+}
+.header .navbar ul li a{
+    color: #fff;
+    padding: 0 14px;
+    transition: .2s linear;
+}
+.header .navbar ul li a.btn {
+    background: transparent;
+    padding: 8px 18px;
+    border-radius: 50px;
+}
+.header .navbar ul li a.btn:hover{
+    color: #fff;
+    background: 47b2e4;
+    border: 0.1rem solid #fff;
+}
+.header .navbar ul li a:hover{
+    color: #47b2e4;
+}
+.home{
+    background: #37517e;
+    padding: .7rem 6%;
+}
+.home .content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    align-items: center;
+}
+.home .content .details h1{
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+.home .content .details p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.66rem;
+}
+.home .content .details .icons{
+    margin-top: 43px;
+}
+.home .content .details .icons a{
+    color: #fff;
+    font-size: 19px;
+    transition: .3s linear;
+}
+.home .content .details .icons a i{
+    font-size: 28px;
+    transition: .2s linear;
+}
+.home .content .details .icons a i span{
+    font-size: 20px;
+}
+.home .content .details .icons a:hover i{
+    color: #47b2e4;
+}
+.home .content .details .icons a.btn{
+    padding: 9px 31px;
+    border-radius: 22px;
+}
+.home .content .details .icons a:nth-child(2){
+    padding: 20px;
+}
+.home .content img{
+    height: 24rem;
+}
+.client{
+    padding: .7rem 11%;
+    background: #f3f5fa;
+}
+.client .client-img{
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.client .client-img img{
+     height: 30px;
+     filter: grayscale(100);
+     transition: all .4s ease-in-out;
+}
+.client .client-img img:hover{
+    filter: none;
+}
+.about h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-top: 17px;
+    color: #37517e;
+    text-align: center;
+}
+
+
+
+
+
