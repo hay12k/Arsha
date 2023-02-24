@@ -127,6 +127,40 @@
     color: #37517e;
     text-align: center;
 }
+.skills{
+    display: flex;
+    align-items: center;
+    padding: .7rem 6%;
+}
+.skills img{
+    height: 330px;
+}
+.skills .skill{
+    padding: 0 19px;
+}
+.skills .skill h1{
+    font-size: 2.1rem;
+    color: #00007e;
+}
+.skills .skill p{
+    color: lightslategrey;
+    /* padding-bottom: 20px; */
+}
+.skill-content{
+    padding: 10px 0;
+}
+.skill-content .course {
+    padding: 6px 0;
+}
+.skill-content .course span {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+.skill-content .course .skill-level{
+    border-bottom: 6px solid #00007e;
+}
 
 
 
